@@ -818,7 +818,7 @@ build-generated:
 	$(MAKE) $(CORE_GENERATED_SRC)
 
 build:
-	$(MAKE) build-libstorage
+#	$(MAKE) build-libstorage
 	$(MAKE) build-generated
 	$(MAKE) build-$(PROG)
 	$(MAKE) stat-prog
